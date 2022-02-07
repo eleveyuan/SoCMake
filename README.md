@@ -13,11 +13,11 @@ Something of CMake
 
 将普通、缓存或环境变量设置为给定值。
 
-普通变量：set(<variable> <value>... [PARENT_SCOPE])
+普通变量：set(\<variable\> \<value\>... [PARENT_SCOPE])
 
-缓存：set(<variable> <value>... CACHE <type> <docstring> [FORCE])
+缓存：set(\<variable\> \<value\>... CACHE \<type\> \<docstring\> [FORCE])
 
-环境变量：set(ENV{<variable>} [<value>])
+环境变量：set(ENV{\<variable\>} [\<value\>])
 
 ## if
 
@@ -27,7 +27,7 @@ Something of CMake
 
 ## option
 
-提供一个选项供用户选择为 ON 或 OFF。如果没有提供初始 <value>，则使用 OFF。如果 <variable> 已设置为普通或缓存变量，则该命令不执行任何操作
+提供一个选项供用户选择为 ON 或 OFF。如果没有提供初始 \<value\>，则使用 OFF。如果 \<variable\> 已设置为普通或缓存变量，则该命令不执行任何操作
 
 ## file
 
@@ -46,7 +46,7 @@ reference: https://zhuanlan.zhihu.com/p/97369704
 
 寻找第三方库
 
-该命令用于查找库。如果指定了 NO_CACHE，则创建由 <VAR> 命名的高速缓存条目或普通变量以存储此命令的结果。如果找到库，结果将存储在变量中，除非清除变量，否则不会重复搜索。如果没有找到，结果将是 <VAR>-NOTFOUND。
+该命令用于查找库。如果指定了 NO_CACHE，则创建由 \<VAR\> 命名的高速缓存条目或普通变量以存储此命令的结果。如果找到库，结果将存储在变量中，除非清除变量，否则不会重复搜索。如果没有找到，结果将是 \<VAR\>-NOTFOUND。
 
 ## get_filename_component
 
