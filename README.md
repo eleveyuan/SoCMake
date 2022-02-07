@@ -90,3 +90,11 @@ https://cmake.org/pipermail/cmake/2007-November/017897.html
 ## foreach
 
 为列表中的每个值评估一组命令
+
+## FetchContent_Declare
+用于从github引入第三方库
+
+首先引入FetchContent：<br />
+include(FetchContent)
+
+https://www.cnblogs.com/Addoil/p/13611925.html
