@@ -92,9 +92,11 @@ https://cmake.org/pipermail/cmake/2007-November/017897.html
 为列表中的每个值评估一组命令
 
 ## FetchContent_Declare/FetchContent_MakeAvailable
-用于从github引入第三方库
+用于从github引入第三方库（modern cmake的特性）
 
 首先引入FetchContent：<br />
 include(FetchContent)
 
 https://www.cnblogs.com/Addoil/p/13611925.html
+
+在使用FetchContent引入第三方库是，由于使用了代理导致下载超时，在使用FetchContent时，要注意保证网络的稳定
