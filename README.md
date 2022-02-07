@@ -1,0 +1,2 @@
+# SoCMake
+Something of CMake
